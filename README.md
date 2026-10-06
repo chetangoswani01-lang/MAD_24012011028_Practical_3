@@ -2,7 +2,7 @@
 
 ## Aim
 
-Create an Android application which demonstrates implicit and explicit Intent.
+Develop an Android application that demonstrates the use of implicit and explicit Intent.
 
 ---
 
@@ -34,10 +34,10 @@ demo_video.mp4 [video](YOUR_OWN_VIDEO_LINK_HERE)
 
 ### 1. Implicit Intent
 
-Implicit intents allow the application to request an action from another application on the device without specifying which application will handle the request.
+Implicit intents allow the application to request an operation from another application on the device without directly specifying which application will perform it.
 
 ```kotlin
-// Opening a URL
+// Browsing a URL
 findViewById<Button>(R.id.btn_Browse).setOnClickListener {
     val url = findViewById<EditText>(R.id.editTextText).text.toString()
     Intent(Intent.ACTION_VIEW, url.toUri()).also {
