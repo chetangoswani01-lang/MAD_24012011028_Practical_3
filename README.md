@@ -54,8 +54,8 @@ findViewById<Button>(R.id.btn_Call).setOnClickListener {
         startActivity(it)
     }
 }
-Action View: Used for browsing web content.
-Action Dial: Opens the dialer with the provided phone number using tel: URI.
+###Action View: Used for browsing web content.
+###Action Dial: Opens the dialer with the provided phone number using tel: URI.
 // Setting an Alarm
 findViewById<Button>(R.id.btn_Alarm).setOnClickListener {
     Intent(AlarmClock.ACTION_SET_ALARM).apply {
@@ -66,9 +66,9 @@ findViewById<Button>(R.id.btn_Alarm).setOnClickListener {
         startActivity(it)
     }
 }
-AlarmClock: Uses extras like EXTRA_HOUR and EXTRA_MINUTES to configure the system alarm.
-2. Explicit Intent
-Explicit intents are used to start a specific component (like an Activity) within your own application.
+###AlarmClock: Uses extras like EXTRA_HOUR and EXTRA_MINUTES to configure the system alarm.
+###2. Explicit Intent
+###Explicit intents are used to start a specific component (like an Activity) within your own application.
 // Navigating to LoginActivity
 findViewById<Button>(R.id.btn_Login).setOnClickListener {
     Intent(this, LoginActivity::class.java).also {
