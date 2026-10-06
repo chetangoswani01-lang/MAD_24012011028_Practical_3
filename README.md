@@ -106,6 +106,3 @@ A modern login interface featuring:
 - **Form**: Email and Password inputs with a "Login" button and "Forgot Password" link.
 
 ---
-
-**Enrollment No:** 24012011123  
-**Last Updated:** 2026-07-28
